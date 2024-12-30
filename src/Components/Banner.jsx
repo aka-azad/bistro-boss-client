@@ -10,7 +10,7 @@ import img6 from "../assets/home/06.png";
 const Banner = () => {
   return (
     <div className="-mt-[80px]">
-      <Carousel showArrows stopOnHover showStatus={false}  onChange={onchange}>
+      <Carousel showArrows stopOnHover={false} autoPlay={true} interval={3000} infiniteLoop={true} showStatus={false}  >
         <div>
           <img src={img1} alt="" />
         </div>

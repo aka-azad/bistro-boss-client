@@ -10,7 +10,7 @@
 .carousel .thumbs-wrapper {
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: calc(100% - 40px);
 }
 
 .carousel .thumbs {
@@ -21,3 +21,4 @@
 .carousel .thumb {
   margin: 0 5px;
 }
+
